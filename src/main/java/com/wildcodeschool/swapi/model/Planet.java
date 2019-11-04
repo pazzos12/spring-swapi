@@ -9,15 +9,15 @@ public class Planet {
 
 	private String name;
 	@JsonProperty("rotation_period")
-	private String rotation_period;
+	private String rotationPeriod;
 	@JsonProperty("orbital_period")	
-	private String orbital_period;
+	private String orbitalPeriod;
 	private String diameter; 
     	private String climate; 
 	private String gravity; 
 	private String terrain;
 	@JsonProperty("surface_water")
-	private String surface_water;
+	private String surfaceWater;
     	private String population; 
 	private String[] residents; 
    	private String[] films;
@@ -38,11 +38,11 @@ public class Planet {
  	}
 
   	public String getRotationPeriod() {
- 		return rotation_period;
+ 		return rotationPeriod;
  	}
 
  	public String getOrbitalPeriod() {
- 		return orbital_period;
+ 		return orbitalPeriod;
  	}
  	
  	public String getDiameter() {
@@ -62,7 +62,7 @@ public class Planet {
  	}
  	
  	public String getSurfaceWater() {
- 		return surface_water;
+ 		return surfaceWater;
  	}
  	
  	public String getPopulation() {
@@ -98,11 +98,11 @@ public class Planet {
  	}
  	
  	public void setRotationPeriod(String rotation_period) {
- 		this.rotation_period = rotation_period;
+ 		this.rotationPeriod = rotationPeriod;
  	}
  	
  	public void setOrbitalPeriod(String orbital_period) {
- 		this.orbital_period = orbital_period;
+ 		this.orbitalPeriod = orbitalPeriod;
  	}
  	
  	public void setDiameter(String diameter) {
@@ -125,8 +125,8 @@ public class Planet {
  		this.population = population;
  	}
  	
- 	public void setSurfaceWater(String surface_water) {
- 		this.surface_water = surface_water;
+ 	public void setSurfaceWater(String surfaceWater) {
+ 		this.surfaceWater = surfaceWater;
  	}
  	
  	public void setResidents(String[] residents) {
