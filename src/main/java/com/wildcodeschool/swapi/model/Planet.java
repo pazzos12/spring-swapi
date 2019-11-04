@@ -13,17 +13,17 @@ public class Planet {
 	@JsonProperty("orbital_period")	
 	private String orbital_period;
 	private String diameter; 
-    private String climate; 
-    private String gravity; 
-    private String terrain;
+    	private String climate; 
+	private String gravity; 
+	private String terrain;
 	@JsonProperty("surface_water")
 	private String surface_water;
-    private String population; 
+    	private String population; 
 	private String[] residents; 
-    private String[] films;
-    private String created; 
-    private String edited; 
-    private String url;
+   	private String[] films;
+    	private String created; 
+    	private String edited; 
+    	private String url;
 
 
  // constructor
